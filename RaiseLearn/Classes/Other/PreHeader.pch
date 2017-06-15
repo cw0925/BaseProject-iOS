@@ -1,0 +1,18 @@
+//
+//  PreHeader.pch
+//  LOLHero
+//
+//  Created by qf on 16/1/12.
+//  Copyright © 2016年 cw. All rights reserved.
+//
+
+#ifndef PreHeader_pch
+#define PreHeader_pch
+/**
+ *  路径设置($(SRCROOT)/$(PROJECT_NAME)/PreHeader.pch)
+ */
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Constant.h"
+
+#endif /* PreHeader_pch */

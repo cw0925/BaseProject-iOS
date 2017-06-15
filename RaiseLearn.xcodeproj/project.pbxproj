@@ -9,12 +9,19 @@
 /* Begin PBXBuildFile section */
 		CCAD33B51EF2283B00F24C27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33B41EF2283B00F24C27 /* main.m */; };
 		CCAD33B81EF2283B00F24C27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33B71EF2283B00F24C27 /* AppDelegate.m */; };
-		CCAD33BB1EF2283B00F24C27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33BA1EF2283B00F24C27 /* ViewController.m */; };
 		CCAD33BE1EF2283B00F24C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAD33BC1EF2283B00F24C27 /* Main.storyboard */; };
 		CCAD33C01EF2283B00F24C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAD33BF1EF2283B00F24C27 /* Assets.xcassets */; };
 		CCAD33C31EF2283B00F24C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAD33C11EF2283B00F24C27 /* LaunchScreen.storyboard */; };
 		CCAD33CE1EF2283B00F24C27 /* RaiseLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33CD1EF2283B00F24C27 /* RaiseLearnTests.m */; };
 		CCAD33D91EF2283B00F24C27 /* RaiseLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33D81EF2283B00F24C27 /* RaiseLearnUITests.m */; };
+		CCAD33F21EF228E600F24C27 /* AFNetHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33ED1EF228E600F24C27 /* AFNetHelper.m */; };
+		CCAD33F31EF228E600F24C27 /* Controller.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCAD33EE1EF228E600F24C27 /* Controller.plist */; };
+		CCAD33F41EF228E600F24C27 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33F11EF228E600F24C27 /* RootViewController.m */; };
+		CCAD33F81EF22F4B00F24C27 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33F71EF22F4B00F24C27 /* BaseViewController.m */; };
+		CCAD33FB1EF22F6100F24C27 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33FA1EF22F6100F24C27 /* HomeViewController.m */; };
+		CCAD33FE1EF22F7000F24C27 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33FD1EF22F7000F24C27 /* ClassifyViewController.m */; };
+		CCAD34011EF22F7E00F24C27 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD34001EF22F7E00F24C27 /* MyViewController.m */; };
+		D67E64FE98115BCFA212ADC3 /* libPods-RaiseLearn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F8386206A04A51E3E9B07B /* libPods-RaiseLearn.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34B0E23EDDF95B0041FB6674 /* Pods-RaiseLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiseLearn.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaiseLearn/Pods-RaiseLearn.release.xcconfig"; sourceTree = "<group>"; };
+		9E003A12D6EC5A21E59C09AD /* Pods-RaiseLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiseLearn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaiseLearn/Pods-RaiseLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		A9F8386206A04A51E3E9B07B /* libPods-RaiseLearn.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RaiseLearn.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAD33B01EF2283B00F24C27 /* RaiseLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiseLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAD33B41EF2283B00F24C27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CCAD33B61EF2283B00F24C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CCAD33B71EF2283B00F24C27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CCAD33B91EF2283B00F24C27 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CCAD33BA1EF2283B00F24C27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCAD33B61EF2283B00F24C27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		CCAD33B71EF2283B00F24C27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		CCAD33BD1EF2283B00F24C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCAD33BF1EF2283B00F24C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCAD33C21EF2283B00F24C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,21 @@
 		CCAD33D41EF2283B00F24C27 /* RaiseLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiseLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCAD33D81EF2283B00F24C27 /* RaiseLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RaiseLearnUITests.m; sourceTree = "<group>"; };
 		CCAD33DA1EF2283B00F24C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAD33EC1EF228E600F24C27 /* AFNetHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetHelper.h; sourceTree = "<group>"; };
+		CCAD33ED1EF228E600F24C27 /* AFNetHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetHelper.m; sourceTree = "<group>"; };
+		CCAD33EE1EF228E600F24C27 /* Controller.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Controller.plist; sourceTree = "<group>"; };
+		CCAD33EF1EF228E600F24C27 /* PreHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreHeader.pch; sourceTree = "<group>"; };
+		CCAD33F01EF228E600F24C27 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		CCAD33F11EF228E600F24C27 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CCAD33F51EF2296000F24C27 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		CCAD33F61EF22F4B00F24C27 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		CCAD33F71EF22F4B00F24C27 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		CCAD33F91EF22F6100F24C27 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CCAD33FA1EF22F6100F24C27 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		CCAD33FC1EF22F7000F24C27 /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
+		CCAD33FD1EF22F7000F24C27 /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
+		CCAD33FF1EF22F7E00F24C27 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		CCAD34001EF22F7E00F24C27 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D67E64FE98115BCFA212ADC3 /* libPods-RaiseLearn.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		953D446827CEF778863E1C6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E003A12D6EC5A21E59C09AD /* Pods-RaiseLearn.debug.xcconfig */,
+				34B0E23EDDF95B0041FB6674 /* Pods-RaiseLearn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CCAD33A71EF2283B00F24C27 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,8 @@
 				CCAD33CC1EF2283B00F24C27 /* RaiseLearnTests */,
 				CCAD33D71EF2283B00F24C27 /* RaiseLearnUITests */,
 				CCAD33B11EF2283B00F24C27 /* Products */,
+				953D446827CEF778863E1C6E /* Pods */,
+				D72A4B3E39341017E4D505B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +136,7 @@
 		CCAD33B21EF2283B00F24C27 /* RaiseLearn */ = {
 			isa = PBXGroup;
 			children = (
-				CCAD33B61EF2283B00F24C27 /* AppDelegate.h */,
-				CCAD33B71EF2283B00F24C27 /* AppDelegate.m */,
-				CCAD33B91EF2283B00F24C27 /* ViewController.h */,
-				CCAD33BA1EF2283B00F24C27 /* ViewController.m */,
-				CCAD33BC1EF2283B00F24C27 /* Main.storyboard */,
-				CCAD33BF1EF2283B00F24C27 /* Assets.xcassets */,
-				CCAD33C11EF2283B00F24C27 /* LaunchScreen.storyboard */,
-				CCAD33C41EF2283B00F24C27 /* Info.plist */,
+				CCAD33E61EF2288B00F24C27 /* Classes */,
 				CCAD33B31EF2283B00F24C27 /* Supporting Files */,
 			);
 			path = RaiseLearn;
@@ -117,6 +145,10 @@
 		CCAD33B31EF2283B00F24C27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCAD33BC1EF2283B00F24C27 /* Main.storyboard */,
+				CCAD33BF1EF2283B00F24C27 /* Assets.xcassets */,
+				CCAD33C11EF2283B00F24C27 /* LaunchScreen.storyboard */,
+				CCAD33C41EF2283B00F24C27 /* Info.plist */,
 				CCAD33B41EF2283B00F24C27 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +172,78 @@
 			path = RaiseLearnUITests;
 			sourceTree = "<group>";
 		};
+		CCAD33E61EF2288B00F24C27 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD33E71EF2288B00F24C27 /* Base */,
+				CCAD33E81EF2288B00F24C27 /* Classify */,
+				CCAD33E91EF2288B00F24C27 /* Home */,
+				CCAD33EA1EF2288B00F24C27 /* My */,
+				CCAD33EB1EF2288B00F24C27 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CCAD33E71EF2288B00F24C27 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD33F61EF22F4B00F24C27 /* BaseViewController.h */,
+				CCAD33F71EF22F4B00F24C27 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CCAD33E81EF2288B00F24C27 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD33FC1EF22F7000F24C27 /* ClassifyViewController.h */,
+				CCAD33FD1EF22F7000F24C27 /* ClassifyViewController.m */,
+			);
+			path = Classify;
+			sourceTree = "<group>";
+		};
+		CCAD33E91EF2288B00F24C27 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD33F91EF22F6100F24C27 /* HomeViewController.h */,
+				CCAD33FA1EF22F6100F24C27 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CCAD33EA1EF2288B00F24C27 /* My */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD33FF1EF22F7E00F24C27 /* MyViewController.h */,
+				CCAD34001EF22F7E00F24C27 /* MyViewController.m */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		CCAD33EB1EF2288B00F24C27 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD33B61EF2283B00F24C27 /* AppDelegate.h */,
+				CCAD33B71EF2283B00F24C27 /* AppDelegate.m */,
+				CCAD33EC1EF228E600F24C27 /* AFNetHelper.h */,
+				CCAD33ED1EF228E600F24C27 /* AFNetHelper.m */,
+				CCAD33EE1EF228E600F24C27 /* Controller.plist */,
+				CCAD33EF1EF228E600F24C27 /* PreHeader.pch */,
+				CCAD33F01EF228E600F24C27 /* RootViewController.h */,
+				CCAD33F11EF228E600F24C27 /* RootViewController.m */,
+				CCAD33F51EF2296000F24C27 /* Constant.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D72A4B3E39341017E4D505B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9F8386206A04A51E3E9B07B /* libPods-RaiseLearn.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCAD33DD1EF2283B00F24C27 /* Build configuration list for PBXNativeTarget "RaiseLearn" */;
 			buildPhases = (
+				09D6BACA507402916C0ECF5C /* [CP] Check Pods Manifest.lock */,
 				CCAD33AC1EF2283B00F24C27 /* Sources */,
 				CCAD33AD1EF2283B00F24C27 /* Frameworks */,
 				CCAD33AE1EF2283B00F24C27 /* Resources */,
+				7542C45C540A9D2AB35E3C93 /* [CP] Embed Pods Frameworks */,
+				96F17FB45C9CD681C26EA4EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +355,7 @@
 			files = (
 				CCAD33C31EF2283B00F24C27 /* LaunchScreen.storyboard in Resources */,
 				CCAD33C01EF2283B00F24C27 /* Assets.xcassets in Resources */,
+				CCAD33F31EF228E600F24C27 /* Controller.plist in Resources */,
 				CCAD33BE1EF2283B00F24C27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,14 +376,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09D6BACA507402916C0ECF5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7542C45C540A9D2AB35E3C93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiseLearn/Pods-RaiseLearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96F17FB45C9CD681C26EA4EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiseLearn/Pods-RaiseLearn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CCAD33AC1EF2283B00F24C27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCAD33BB1EF2283B00F24C27 /* ViewController.m in Sources */,
 				CCAD33B81EF2283B00F24C27 /* AppDelegate.m in Sources */,
+				CCAD33F81EF22F4B00F24C27 /* BaseViewController.m in Sources */,
+				CCAD34011EF22F7E00F24C27 /* MyViewController.m in Sources */,
+				CCAD33F21EF228E600F24C27 /* AFNetHelper.m in Sources */,
 				CCAD33B51EF2283B00F24C27 /* main.m in Sources */,
+				CCAD33FE1EF22F7000F24C27 /* ClassifyViewController.m in Sources */,
+				CCAD33F41EF228E600F24C27 /* RootViewController.m in Sources */,
+				CCAD33FB1EF22F6100F24C27 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +583,10 @@
 		};
 		CCAD33DE1EF2283B00F24C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E003A12D6EC5A21E59C09AD /* Pods-RaiseLearn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Classes/Other/PreHeader.pch";
 				INFOPLIST_FILE = RaiseLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CW.RaiseLearn;
@@ -433,8 +596,10 @@
 		};
 		CCAD33DF1EF2283B00F24C27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B0E23EDDF95B0041FB6674 /* Pods-RaiseLearn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Classes/Other/PreHeader.pch";
 				INFOPLIST_FILE = RaiseLearn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CW.RaiseLearn;
@@ -507,6 +672,7 @@
 				CCAD33DF1EF2283B00F24C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCAD33E01EF2283B00F24C27 /* Build configuration list for PBXNativeTarget "RaiseLearnTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +681,7 @@
 				CCAD33E21EF2283B00F24C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCAD33E31EF2283B00F24C27 /* Build configuration list for PBXNativeTarget "RaiseLearnUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +690,7 @@
 				CCAD33E51EF2283B00F24C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
