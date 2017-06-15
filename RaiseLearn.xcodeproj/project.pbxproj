@@ -21,6 +21,13 @@
 		CCAD33FB1EF22F6100F24C27 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33FA1EF22F6100F24C27 /* HomeViewController.m */; };
 		CCAD33FE1EF22F7000F24C27 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD33FD1EF22F7000F24C27 /* ClassifyViewController.m */; };
 		CCAD34011EF22F7E00F24C27 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD34001EF22F7E00F24C27 /* MyViewController.m */; };
+		CCAD34051EF23A7C00F24C27 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD34041EF23A7C00F24C27 /* BaseModel.m */; };
+		CCAD340B1EF23B3100F24C27 /* BookListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD340A1EF23B3100F24C27 /* BookListModel.m */; };
+		CCAD34101EF2470F00F24C27 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD340E1EF2470F00F24C27 /* HomeCell.m */; };
+		CCAD34111EF2470F00F24C27 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCAD340F1EF2470F00F24C27 /* HomeCell.xib */; };
+		CCAD34141EF24B1600F24C27 /* ChaptersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD34131EF24B1600F24C27 /* ChaptersViewController.m */; };
+		CCAD34171EF24CFF00F24C27 /* ChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD34161EF24CFF00F24C27 /* ChapterModel.m */; };
+		CCAD341A1EF2505100F24C27 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAD34191EF2505100F24C27 /* ContentViewController.m */; };
 		D67E64FE98115BCFA212ADC3 /* libPods-RaiseLearn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F8386206A04A51E3E9B07B /* libPods-RaiseLearn.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +81,19 @@
 		CCAD33FD1EF22F7000F24C27 /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
 		CCAD33FF1EF22F7E00F24C27 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		CCAD34001EF22F7E00F24C27 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		CCAD34031EF23A7C00F24C27 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		CCAD34041EF23A7C00F24C27 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		CCAD34091EF23B3100F24C27 /* BookListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListModel.h; sourceTree = "<group>"; };
+		CCAD340A1EF23B3100F24C27 /* BookListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListModel.m; sourceTree = "<group>"; };
+		CCAD340D1EF2470F00F24C27 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		CCAD340E1EF2470F00F24C27 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		CCAD340F1EF2470F00F24C27 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		CCAD34121EF24B1600F24C27 /* ChaptersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaptersViewController.h; sourceTree = "<group>"; };
+		CCAD34131EF24B1600F24C27 /* ChaptersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaptersViewController.m; sourceTree = "<group>"; };
+		CCAD34151EF24CFF00F24C27 /* ChapterModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterModel.h; sourceTree = "<group>"; };
+		CCAD34161EF24CFF00F24C27 /* ChapterModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterModel.m; sourceTree = "<group>"; };
+		CCAD34181EF2505100F24C27 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		CCAD34191EF2505100F24C27 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,9 +195,9 @@
 		CCAD33E61EF2288B00F24C27 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CCAD33E91EF2288B00F24C27 /* Home */,
 				CCAD33E71EF2288B00F24C27 /* Base */,
 				CCAD33E81EF2288B00F24C27 /* Classify */,
-				CCAD33E91EF2288B00F24C27 /* Home */,
 				CCAD33EA1EF2288B00F24C27 /* My */,
 				CCAD33EB1EF2288B00F24C27 /* Other */,
 			);
@@ -189,6 +209,8 @@
 			children = (
 				CCAD33F61EF22F4B00F24C27 /* BaseViewController.h */,
 				CCAD33F71EF22F4B00F24C27 /* BaseViewController.m */,
+				CCAD34031EF23A7C00F24C27 /* BaseModel.h */,
+				CCAD34041EF23A7C00F24C27 /* BaseModel.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -205,8 +227,9 @@
 		CCAD33E91EF2288B00F24C27 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				CCAD33F91EF22F6100F24C27 /* HomeViewController.h */,
-				CCAD33FA1EF22F6100F24C27 /* HomeViewController.m */,
+				CCAD340C1EF246F800F24C27 /* View */,
+				CCAD34081EF23AD100F24C27 /* Model */,
+				CCAD34061EF23A8300F24C27 /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -234,6 +257,40 @@
 				CCAD33F51EF2296000F24C27 /* Constant.h */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		CCAD34061EF23A8300F24C27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD33F91EF22F6100F24C27 /* HomeViewController.h */,
+				CCAD33FA1EF22F6100F24C27 /* HomeViewController.m */,
+				CCAD34121EF24B1600F24C27 /* ChaptersViewController.h */,
+				CCAD34131EF24B1600F24C27 /* ChaptersViewController.m */,
+				CCAD34181EF2505100F24C27 /* ContentViewController.h */,
+				CCAD34191EF2505100F24C27 /* ContentViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CCAD34081EF23AD100F24C27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD34091EF23B3100F24C27 /* BookListModel.h */,
+				CCAD340A1EF23B3100F24C27 /* BookListModel.m */,
+				CCAD34151EF24CFF00F24C27 /* ChapterModel.h */,
+				CCAD34161EF24CFF00F24C27 /* ChapterModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CCAD340C1EF246F800F24C27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCAD340D1EF2470F00F24C27 /* HomeCell.h */,
+				CCAD340E1EF2470F00F24C27 /* HomeCell.m */,
+				CCAD340F1EF2470F00F24C27 /* HomeCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		D72A4B3E39341017E4D505B2 /* Frameworks */ = {
@@ -357,6 +414,7 @@
 				CCAD33C01EF2283B00F24C27 /* Assets.xcassets in Resources */,
 				CCAD33F31EF228E600F24C27 /* Controller.plist in Resources */,
 				CCAD33BE1EF2283B00F24C27 /* Main.storyboard in Resources */,
+				CCAD34111EF2470F00F24C27 /* HomeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,11 +487,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCAD34051EF23A7C00F24C27 /* BaseModel.m in Sources */,
 				CCAD33B81EF2283B00F24C27 /* AppDelegate.m in Sources */,
+				CCAD34101EF2470F00F24C27 /* HomeCell.m in Sources */,
+				CCAD34171EF24CFF00F24C27 /* ChapterModel.m in Sources */,
 				CCAD33F81EF22F4B00F24C27 /* BaseViewController.m in Sources */,
+				CCAD34141EF24B1600F24C27 /* ChaptersViewController.m in Sources */,
 				CCAD34011EF22F7E00F24C27 /* MyViewController.m in Sources */,
 				CCAD33F21EF228E600F24C27 /* AFNetHelper.m in Sources */,
+				CCAD341A1EF2505100F24C27 /* ContentViewController.m in Sources */,
 				CCAD33B51EF2283B00F24C27 /* main.m in Sources */,
+				CCAD340B1EF23B3100F24C27 /* BookListModel.m in Sources */,
 				CCAD33FE1EF22F7000F24C27 /* ClassifyViewController.m in Sources */,
 				CCAD33F41EF228E600F24C27 /* RootViewController.m in Sources */,
 				CCAD33FB1EF22F6100F24C27 /* HomeViewController.m in Sources */,
